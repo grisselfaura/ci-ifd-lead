@@ -11,10 +11,10 @@
 Basically, Jasmine is a testing framework that you can use to write tests for your JavaScript code.
 
 ```js
-describe("A suite is just a function", function() {
+describe("write your test group description here", function() {
   var a;
 
-  it("and so is a spec", function() {
+  it("write your test expectation here", function() {
     a = true;
 
     expect(a).toBe(true);
